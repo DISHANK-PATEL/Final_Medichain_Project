@@ -144,8 +144,8 @@ Medichain is a platform that combines Generative AI (GenAI), Machine Learning, a
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-    ```bash
-
+   ```bash  
+   git clone https://github.com/DISHANK-PATEL/Final_Medichain_Project.git  
     ```
 2. Navigate into the project directory:
     ```bash
