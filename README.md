@@ -132,7 +132,8 @@ Medichain is a platform that combines Generative AI (GenAI), Machine Learning, a
 ![4105c10c-b7f5-4289-8bbe-0777d08ec296](https://github.com/user-attachments/assets/76a85ebc-5f23-4ec7-8ace-d03a79752cc8)
 
 
-## Installation
+## Installation 
+
 To run this project locally, follow these steps:
 
 1. Clone the repository:
@@ -147,8 +148,34 @@ To run this project locally, follow these steps:
     ```bash
     python -m pip install -r requirements.txt
     ```
-
+```bash
 ## Usage
 Run the Streamlit application:
-```bash
+
 python -m streamlit run app.py
+
+### Installation (Blockchain)
+
+# Navigate to the root directory
+cd Folder_name
+
+# Install Hardhat dependencies
+npm install
+
+# Compile Smart Contract
+npx hardhat compile
+
+# Deploy Smart Contract
+npx hardhat run scripts/deploy.js --network <network-name>
+
+# Navigate to the React client directory
+cd client
+
+# Install React dependencies
+npm install
+
+# Start React Application
+npm start
+
+
+
